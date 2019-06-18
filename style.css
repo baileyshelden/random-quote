@@ -1,0 +1,60 @@
+@@font-face {
+  font-family: 'vogue':
+  src: url(Vogue.ttf) format('truetype'),
+}
+@font-face {
+  font-family: 'Annamellia';
+  src: url('Annamellia.ttf')  format('truetype'),
+}
+
+@@font-face {
+  font-family: 'Helvetica';
+  src: url('Helvetica.ttf')
+  format('truetype'),
+}
+.get{
+  font-family: 'Annamellia', Fallback, sans-serif;
+  position:absolute;
+  top: -250px;
+  left: 600px;
+  font-size: 200px;
+  text-align: center;
+}
+.inspired{
+  font-family: 'Vogue', Fallback, sans-serif;
+  margin-bottom: -80px;
+  font-size: 200px;
+  text-align: center;
+}
+.header{
+font-family:'Helvetica',Fallback, sans-serif;
+text-align: center;
+font-size: 50px;
+}
+
+.emoji{
+    /* border: solid black 20px; */
+    position:absolute;
+    top: 290px;
+    left: 550px;
+    font-size: 200px;
+    text-align: center;
+}
+img{
+  height: 50px;
+  width: 50px;
+  /* text-shadow: 2px black; */
+}
+
+.submit-btn{
+    width: 300px;
+    padding: 5px;
+    margin: 5px auto 25px auto;
+    border-radius: 2px;
+    color: black;
+    font-size: 100%;
+    position:absolute;
+    top: 500px;
+    left: 550px;
+    text-align: center;
+  }
